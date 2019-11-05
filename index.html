@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unicorn</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v5.0"></script>
+</head>
+<body class="home_page">
+        <a href="index.html">
+            <header class="banner" >
+            </header>
+        </a> 
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-list-item" id="about">
+                    <a href="about.html" class="nav-list-item-link">★關於我們</a>
+                </li>
+                <li class="nav-list-item" id="members">
+                    <a class="nav-list-item-link">★成員簡介</a>
+                </li>
+                <li class="nav-list-item" id="gallery">
+                    <a href="gallery.html" class="nav-list-item-link">★圖文藝廊</a>
+                </li>
+                <li class="nav-list-item" id="goods">
+                    <a href="goods.html" class="nav-list-item-link">★精選商品</a>
+                </li>
+                <li class="nav-list-item" id="event">
+                    <a href="event.html" class="nav-list-item-link">★活動紀錄</a>
+                </li>
+            </ul>
+            <ul class="member-list">
+                <li class="member-list-item">
+                    <a href="members-sibu.html" class="nav-list-item-link">Sibu_Star</a>
+                </li>
+                <li class="member-list-item">
+                    <a href="members-hakana.html" class="nav-list-item-link">荒北儚</a>
+                </li>
+                <li class="member-list-item">
+                    <a href="members-dag.html" class="nav-list-item-link">聿契</a>
+                </li>
+                <li class="member-list-item">
+                    <a href="members-axhi.html" class="nav-list-item-link">先夜</a>
+                </li>
+                <li class="member-list-item">
+                    <a href="members-take.html" class="nav-list-item-link">柳莫秦（竹子）</a>
+                </li>
+                <li class="member-list-item">
+                    <a href="members-yuqi.html" class="nav-list-item-link">Yuqi</a>
+                </li>
+                <li class="member-list-item">
+                    <a href="members-dan.html" class="nav-list-item-link">Dan（海膽）</a>
+                </li>
+                <li class="member-list-item">
+                    <a href="members-mary.html" class="nav-list-item-link">彌櫻</a>
+                </li>
+                <li class="member-list-item">
+                    <a href="members-biu.html" class="nav-list-item-link">Biu Biu</a>
+                </li>
+            </ui>
+        </nav>
+    <article class="all_content">
+        <div class="home-picture"></div>
+        <section class="news-part">
+            <!--<table>
+                <tbody>
+                    <tr>
+                        <td valign="top"><活動 2019.11.2></td>
+                        <td>社團首次參展<br>參與PF31，攤位E15
+                        <a href="http://www.f-2.com.tw/index.php?q=category/%E6%B4%BB%E5%8B%95/pf31">活動官網</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top"><活動 2019.11.2></td>
+                        <td>合本『本草綱目』<br>由七位成員共同繪製的全彩植物主題圖本<br>A5/36P/直式左翻</td>
+                    </tr>
+                    <tr>
+                        <td valign="top"><新品 2019.9.15></td>
+                        <td>楓之谷同人杯墊/Sibu杏<br>11X11/陶瓷吸水杯墊<br>可簽繪！</td>
+                    </tr>
+                    <tr>
+                        <td valign="top"><新品 2019.9.15></td>
+                        <td>梅露可同人吊飾/荒北儚<br>5X5/壓克力吊飾/雙面不同圖</td>
+                    </tr>
+                </tbody>
+            </table>-->
+            <div class="news">
+                <h3 class="news-header">
+                    最新消息 NEWS
+                </h3>
+                <div class="news-content">
+                    <h4 class="news-title"><活動 2019.11.2></h4>
+                        <p class="news-point">社團首次參展
+                            <br>參與PF31 攤位E15
+                        <a href="http://www.f-2.com.tw/index.php?q=category/%E6%B4%BB%E5%8B%95/pf31" style="text-decoration: none;">(活動官網)</a></p>
+                </div>
+                <div class="news-content">        
+                    <h4 class="news-title"><新品 2019.11.2></h4>
+                        <p class="news-point">合本『本草綱目』<br>
+                        由七位成員共同繪製的全彩植物主題圖本<br>
+                        A5/36P/直式左翻</p>
+                </div>
+                <div class="news-content">
+                    <h4 class="news-title"><新品 2019.9.15></h4>
+                        <p class="news-point">楓之谷同人杯墊/Sibu杏<br>
+                        11X11/陶瓷吸水杯墊<br>
+                        可簽繪！
+                        </p>
+                </div> 
+                <div class="news-content">
+                    <h4 class="news-title"><新品 2019.9.15></h4>
+                        <p class="news-point">梅露可同人吊飾/荒北儚<br>5X5/壓克力吊飾/雙面不同圖
+                        </p>
+                </div>
+            </div>
+            <div id="fb-root"></div>
+            <div class="fb-post" data-href="https://www.facebook.com/permalink.php?story_fbid=656881468170672&amp;id=519598488565638" data-width="600" data-show-text="true"><blockquote cite="https://developers.facebook.com/permalink.php?story_fbid=656881468170672&amp;id=519598488565638" class="fb-xfbml-parse-ignore"><p>下個月……就是下個月了！
+                    咱們動物園的各位就要出攤啦！
+                    現在就先來介紹一下合本吧～
+                    植物擬人－本草綱目
+                    裡面可是有一堆可愛的妹子跟帥氣的御姊
+                    嗯？你說男的，抱歉男的比較不被我們重視www
+                    有各種畫風任你所愛～
+                    一本只要$150!!!整整36頁的精采圖稿與人設
+                    我們在11/2的圓山花博爭豔館的E15攤位上等你來喔！
+                    接下來將會陸續放上當日會販售的商品！
+                    敬請期待&gt;w&lt;
+                    
+                    #PF31</p>由<a href="https://www.facebook.com/&#x7368;&#x89d2;&#x7378;&#x5947;&#x5e7b;&#x52d5;&#x7269;&#x5712;-519598488565638/">獨角獸奇幻動物園</a>發佈於&nbsp;<a href="https://developers.facebook.com/permalink.php?story_fbid=656881468170672&amp;id=519598488565638">2019年10月12日 星期六</a></blockquote></div>
+        </section>
+    </article>
+    <footer class="home-footer">
+        <div class="footer">
+            <p class="home-footer-content">
+                獨角獸奇幻動物園<br>
+                聯絡信箱 ：10421unicorn@gmail.com<br>
+                連絡電話 ：0800-087-087
+            </p>
+            <div class="footer-icon">
+                <a href="https://www.facebook.com/獨角獸奇幻動物園-519598488565638/"><img src="images/FB1.png" class="footer_icon_p" ></a>
+                <a href="https://www.instagram.com/10421unicorn/"><img src="images/IG1.png" class="footer_icon_p"></a>
+                <a href="https://www.plurk.com/Unicorn_10421"><img src="images/PLURK1.png" class="footer_icon_p"></a>
+            </div>
+        </div>
+        <img src="images/unicorn2.png" class="unicorn2">
+    </footer>
+</body>
+</html>
